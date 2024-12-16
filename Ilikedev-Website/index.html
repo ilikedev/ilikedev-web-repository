@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iLikeDev</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <script type="importmap">
+    {
+      "imports": {
+        "@material/web/": "https://esm.run/@material/web/"
+      }
+    }
+  </script>
+  <script type="module">
+    import '@material/web/all.js';
+    import {styles as typescaleStyles} from '@material/web/typography/md-typescale-styles.js';
+
+    document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
+  </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<div class="menu-bar">
+    <md-elevated-button class="menu-btn">Home</md-elevated-button>
+    <md-elevated-button class="menu-btn">Projects</md-elevated-button>
+    <md-elevated-button class="menu-btn">Elevated</md-elevated-button>
+    <md-elevated-button class="menu-btn">Elevated</md-elevated-button>
+</div>
+<body>
+    <div class="margin-menu"></div>
+    <h1 class="Page-Title">Home</h1>
+    <div class="box centered-box bio-box">
+        <div class="bio-main-infos">
+            <div class="pdp-box">
+                <div class="pdp"></div>
+                
+            </div>
+            <div class="bio-left-infos">
+                <h1 style="margin: 0; margin-left: 20px;">IlikeDev</h1>
+                <br>
+                <p style="margin: 0; margin-left: 20px; font-family: Roboto;"> Code in : HTML / CSS / Python / C#</p>
+            </div>
+            
+        </div>
+        <br>
+        <p style="line-height: 1.5;">I like to code small open source software for leisure in my free time and when I feel like it. That's why I'm not very active.
+            My goal is to create programs that are easy to use but allow you to do fairly advanced things. Most of the time, I use MaterialSkin 2 for almost all of my C# software with interfaces.
+            <br>
+            <br>
+            I plan to try to learn the basics of C++ despite my more than execrable level in programming 😅
+        </p>
+    </div>
+    
+</body>
+</html>
